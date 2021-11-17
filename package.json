@@ -1,0 +1,26 @@
+{
+  "name": "home-office-web",
+  "version": "1.0.0",
+  "description": "web page about home office advices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "--"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luxiouz/home-office-web-ch.git"
+  },
+  "keywords": [
+    "home",
+    "office",
+    "web",
+    "coder",
+    "house"
+  ],
+  "author": "Luis Becerra",
+  "license": "SEE LICENSE IN https://github.com/Luxiouz/home-office-web-ch",
+  "bugs": {
+    "url": "https://github.com/Luxiouz/home-office-web-ch/issues"
+  },
+  "homepage": "https://github.com/Luxiouz/home-office-web-ch#readme"
+}
