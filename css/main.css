@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Praise&display=swap");
+.page__banner {
+  background-image: url(../images/escritorio-banner.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 320px;
+  width: 100%;
+  position: relative; }
+  .page__banner::before {
+    content: '';
+    position: absolute;
+    background-image: url(../images/escritorio-banner.jpeg);
+    /*, linear-gradient(90deg, rgba(0,0,0,0.1474964985994398) 0%, rgba(255,255,255,0) 35%, rgba(0,212,255,0.19791666666666663) 100%);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(4px);
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: -1000;
+    transition: 0.5s; }
+
+.page__banner--desktops {
+  background-image: url("../images/escritorio-banner.jpeg"); }
+  .page__banner--desktops::before {
+    background-image: url("../images/escritorio-banner.jpeg"); }
+
+.page__banner--chairs {
+  background-image: url("../images/sillas.jpeg"); }
+  .page__banner--chairs::before {
+    background-image: url("../images/sillas.jpeg"); }
+
+.page__banner--accesories {
+  background-image: url("../images/accesories-banner.jpeg"); }
+  .page__banner--accesories::before {
+    background-image: url("../images/accesories-banner.jpeg"); }
+
+.page__banner--contact {
+  background-image: url("../images/contact-banner.jpeg"); }
+  .page__banner--contact::before {
+    background-image: url("../images/contact-banner.jpeg"); }
+
+.page__title {
+  font-family: 'Bebas Neue', cursive;
+  padding: 2rem;
+  color: cadetBlue;
+  font-size: 2.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.64); }
+
+.page__subtitle {
+  font-family: 'Bebas Neue', cursive;
+  color: cadetblue;
+  font-size: 1.75rem; }
+
+.page__subtitle3 {
+  font-family: 'Bebas Neue', cursive;
+  color: cadetblue;
+  font-size: 1.5rem; }
+  .page__subtitle3::before {
+    content: '‣';
+    font-family: 'Bebas Neue', cursive;
+    color: cadetblue;
+    padding-right: 0.25rem; }
+
+.page__picture {
+  padding: 1rem 0;
+  text-align: center; }
+
+.page__picture img {
+  display: inline-block;
+  border-radius: 0.5rem;
+  max-height: 400px;
+  max-width: 100%; }
+
+.page__tip {
+  font-style: italic;
+  color: gray;
+  position: relative;
+  padding-left: 1rem;
+  border-top: 1px #eee solid;
+  padding-top: 1rem;
+  border-bottom: 1px #eee solid;
+  padding-bottom: 1rem;
+  margin: 1.5rem; }
+
+.page__tip::before {
+  content: "\“";
+  font-family: 'Praise', cursive;
+  font-size: 3rem;
+  position: absolute;
+  font-style: normal;
+  top: -0.25rem;
+  left: -0.5rem; }
+
+@media only screen and (min-width: 1024px) {
+  .page__tip::after {
+    content: "\”";
+    font-family: 'Praise', cursive;
+    font-size: 3rem;
+    position: absolute;
+    font-style: normal;
+    top: 1.5rem; } }
+
+.page__suggested {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1.5rem; }
+  .page__suggested__item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.5rem; }
+    .page__suggested__item:first-child {
+      margin-left: 0; }
+    .page__suggested__item:last-child {
+      margin-right: 0; }
+    .page__suggested__item img {
+      display: inline-block;
+      height: 160px;
+      margin-bottom: 1rem; }
+    .page__suggested__item p {
+      text-align: center; }
