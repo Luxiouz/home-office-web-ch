@@ -25,6 +25,11 @@
     z-index: -1000;
     transition: 0.5s; }
 
+.page__banner--home {
+  background-image: url("../images/banner_home.jpeg"); }
+  .page__banner--home::before {
+    background-image: url("../images/banner_home.jpeg"); }
+
 .page__banner--desktops {
   background-image: url("../images/escritorio-banner.jpeg"); }
   .page__banner--desktops::before {

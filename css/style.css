@@ -14,7 +14,6 @@
     grid-template-areas: 
     'header' 
     'content'
-    'video'
     'categories'
     'suggested'
     'footer';
@@ -79,6 +78,7 @@ section#items-container{
 
 section#video{
     grid-area: video;
+    display: none;
 }
 
 ul.sub-menu{
@@ -117,11 +117,7 @@ footer{
 
 .card{
     margin: 10px;
-}
-
-.card-container .card{
-    width: 20rem;
-    display: inline-block;
+    width: 100%;
 }
 
 .logo{
@@ -137,27 +133,44 @@ footer{
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
     /* For tablets: */
     .card-container{
         justify-content: center;
     }
+
+    .card{
+        width: 72%;
+    }
+
+    section#video{
+        display: block;
+    }
+    
     .grid-container {
         display: grid;
         grid-template-areas: 
         'header header' 
         'content content'
-        'video video'
         'categories categories'
+        'video video'
         'suggested suggested'
         'footer footer';
     }
   }
   
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 1024px) {
     /* For desktop: */
     .card-container{
         justify-content: center;
+    }
+
+    .card{
+        width: 18rem;
+    }
+
+    section#video{
+        display: block;
     }
 
     .grid-container {
@@ -165,8 +178,8 @@ footer{
         grid-template-areas: 
         'header header' 
         'content content'
-        'video suggested'
         'categories categories'
+        'video suggested'
         'footer footer';
     }
 
