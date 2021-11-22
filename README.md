@@ -15,3 +15,4 @@ Para el encabezado del h1 utilicé el texto “Tips de Home Office”
 He trabajado de la mejor manera la estructura de títulos, h1, h2, h3 para poder tener un mejor manejo de los títulos y subtítulos.
 Además he colocado los alt en cada img.
 He trabajado correctamente la enfatización de textos, evitando usar etiquedas de encabezado para simular el estilo de negrita.
+Se creó el repositorio git.
