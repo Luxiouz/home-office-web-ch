@@ -55,7 +55,36 @@ header ul li a{
 }
 
 header .home{
-    height: 5rem;
+    height: 3rem;
+}
+
+header nav{
+    padding: 0 !important;
+}
+
+header nav .navbar-brand{
+    padding: 0 !important;
+}
+
+header nav .container-fluid{
+    padding: 0;
+}
+
+header nav .navbar-collapse ul li a{
+    height: 4rem;
+}
+
+a.nav-link.active{
+    color: cadetblue !important;
+    border-bottom: 3px cadetblue solid;
+}
+
+a.nav-link{
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 1.1rem;
+    line-height: 4rem;
+    padding: 0;
 }
 
 section#home{
@@ -79,6 +108,14 @@ section#items-container{
 section#video{
     grid-area: video;
     display: none;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+a {
+    color: cadetblue;
 }
 
 ul.sub-menu{
@@ -107,6 +144,11 @@ ul li:hover ul.sub-menu{
 
 footer{
     grid-area: footer;
+}
+
+.btn-primary{
+    border-color: cadetblue;
+    background-color: cadetblue;
 }
 
 .main-banner-image{
@@ -167,12 +209,12 @@ footer{
     .grid-container {
         display: grid;
         grid-template-areas: 
-        'header header' 
-        'content content'
-        'categories categories'
-        'video video'
-        'suggested suggested'
-        'footer footer';
+        'header' 
+        'content'
+        'categories'
+        'video'
+        'suggested'
+        'footer';
     }
   }
   
@@ -193,11 +235,18 @@ footer{
     .grid-container {
         display: grid;
         grid-template-areas: 
-        'header header' 
-        'content content'
-        'categories categories'
-        'video suggested'
-        'footer footer';
+        'header' 
+        'content'
+        'categories'
+        'video'
+        'suggested'
+        'footer';
+    }
+
+    iframe{
+        width: 960px;
+        height: 480px;
+        border-radius: 10px;
     }
 
   }

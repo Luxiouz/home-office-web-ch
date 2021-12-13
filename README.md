@@ -16,3 +16,6 @@ He trabajado de la mejor manera la estructura de títulos, h1, h2, h3 para poder
 Además he colocado los alt en cada img.
 He trabajado correctamente la enfatización de textos, evitando usar etiquedas de encabezado para simular el estilo de negrita.
 Se creó el repositorio git.
+
+## Nota
+El enlace a tienda redirije al proyecto del curso de React, cuyo repositorio está aquí: https://github.com/Luxiouz/ch-react-01
