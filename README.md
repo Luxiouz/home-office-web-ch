@@ -1,5 +1,5 @@
 # home-office-web-ch
-Demo project for Coder House's Web Course.
+Demo project for Coder House's Web Course. El enlace a la versión de producción es el siguiente: https://luxiouz.github.io/home-office-web-ch/
 
 ## SEO
 En el archivo index.html implementé el SEO con las siguientes características:
