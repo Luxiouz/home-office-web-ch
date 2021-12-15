@@ -113,6 +113,7 @@ section#video{
 
 iframe{
     border-radius: 10px;
+    width: 100%;
 }
 
 a {
@@ -205,6 +206,11 @@ footer{
 
     section#video{
         display: block;
+    }
+
+
+    iframe{
+        width: 560px;
     }
     
     .grid-container {
